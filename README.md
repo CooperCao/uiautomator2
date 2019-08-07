@@ -1295,6 +1295,8 @@ name代表插件的名字，`func_or_class`可以是函数，也可以是类，�
 
 Other: <https://github.com/openatx/uiautomator2/wiki/Common-issues>
 
+3. weditor如果无法使用，是minicap的问题，可能需要重新编译并替换minicap，可以通过http://192.168.1.101:7912/screenshot/0，验证是否能正常截图，如果不能正常截图，则weditor也无法使用。
+
 ## 实验室功能
 ### 远程查看
 手机`python -m uiautomator2 init`之后，浏览器输入 <device_ip:7912>，会发现一个远程控制功能，延迟非常低噢。^_^
